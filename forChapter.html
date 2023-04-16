@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FilipiNovela</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+        }
+
+        .forNav {
+          background-color: #00b4d8;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          display: flex;
+        }
+
+        .forHam {
+            height: 50px;
+            width: 40px;
+            border: hidden;
+        }
+
+        #ham {
+            color:#e8e337;
+            font-size: 35px;
+            font-weight: bold;
+            background-color: transparent;
+            border: none;
+            transition: .36s;
+        }
+
+        #ham:hover {
+            color: #fb3b1e;
+            font-size: 40px;
+        }
+
+        .forTitle {
+            height: 50px;
+            width: 240px;
+            border: hidden;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title {
+            font-size: 40px;
+            font-weight: bold;
+            color: #e8e337;
+            background-color: transparent;
+            border: none;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+        }
+
+        .extend {
+            color: #fb3b1e;
+        }
+
+        /* For Chapters */
+        .forNext {
+            border: hidden;
+            width: 240px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .less, .greater {
+            font-size: 20px;
+            font-weight: solid;
+            border: 2px solid;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .chapter {
+            font-size: 20px;
+            font-weight: solid;
+            font-family: sans-serif;
+            border: solid;
+        }
+
+        .novel {
+            border: hidden;
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+    </style>
+  </head>
+<body>
+  <div class="forNav">
+    <div class="forHam">
+     <a href="filipinovela.html">   
+      <button id="ham">&larr;</button>
+    </a>
+    </div>
+ 
+    <div class="forTitle">
+      <button class="title">Filipi<span class="extend">Novela</span></button>
+    </div>
+  </div><br>
+  <center><button style="border: none; background: transparent; font-size: 25px; font-weight: bold; font-family: sans-serif;">Chapter 1 - Page 1</button></center><br>
+  <div class="forNext">
+    <button class="less">&larr;</button>
+    <select class="chapter">
+        <option id="novelOne-one">Page 1</option>
+        <option id="novelOne-two">Page 2</option>
+        <option id="novelOne-three">Page 3</option>
+        <option id="novelOne-four">Page 4</option>
+        <option id="novelOne-five">Page 5</option>
+    </select>
+    <a href="forChapter2.html"><button class="greater">&rarr;</button></a>
+  </div>
+
+  <div class="mainBody">
+    <p class="novel">On the last of October Don Santiago de los Santos, popularly known as Capitan Tiago, gave a dinner.  In spite of the fact that, contrary to his usual custom, he had made the announcement only that afternoon, it was already the sole topic of conversation in Binondo and adjacent districts, and even in the Walled City, for at that time Capitan Tiago was considered one of the most hospitable of men, and it was well known that his house, like his country, shut its doors against nothing except commerce and all new or bold ideas.  Like an electric shock the announcement ran through the world of parasites, bores, and hangers-on, whom God in His infinite bounty creates and so kindly multiplies in Manila.  Some looked at once for shoe-polish, others for buttons and cravats, but all were especially concerned about how to greet the master of the house in the most familiar tone, in order to create an atmosphere of ancient friendship or, if occasion should arise, to excuse a late arrival.
+
+        This dinner was given in a house on Calle Anloague, and although we do not remember the number we will describe it in such a way that it may still be recognized, provided the earthquakes have not destroyed it.  We do not believe that its owner has had it torn down, for such labors are generally entrusted to God or nature—which Powers hold the contracts also for many of the projects of our government.  It is a rather large building, in the style of many in the country, and fronts upon the arm of the Pasig which is known to some as the Binondo River, and which, like all the streams in Manila, plays the varied rôles of bath, sewer, laundry, fishery, means of transportation and communication, and even drinking water if the Chinese water-carrier finds it convenient.  It is worthy of note that in the distance of nearly a mile this important artery of the district, where traffic is most dense and movement most deafening, can boast of only one wooden bridge, which is out of repair on one side for six months and impassable on the other for the rest of the year, so that during the hot season the ponies take advantage of this permanent status quo to jump off the bridge into the water, to the great surprise of the abstracted mortal who may be dozing inside the carriage or philosophizing upon the progress of the age.
+        
+        The house of which we are speaking is somewhat low and not exactly correct in all its lines: whether the architect who built it was afflicted with poor eyesight or whether the earthquakes and typhoons have twisted it out of shape, no one can say with certainty.  A wide staircase with green newels and carpeted steps leads from the tiled entrance up to the main floor between rows of flower-pots set upon pedestals of motley-colored and fantastically decorated Chinese porcelain.  Since there are neither porters nor servants who demand invitation cards, we will go in, O you who read this, whether friend or foe, if you are attracted by the strains of the orchestra, the lights, or the suggestive rattling of dishes, knives, and forks, and if you wish to see what such a gathering is like in the distant Pearl of the Orient.  Gladly, and for my own comfort, I should spare you this description of the house, were it not of great importance, since we mortals in general are very much like tortoises: we are esteemed and classified according to our shells; in this and still other respects the mortals of the Philippines in particular also resemble tortoises.</p>
+  </div>
+
+  <div class="forNext">
+    <button class="less">&larr;</button>
+        <select class="chapter">
+        <option id="novelOne-one">Page 1</option>
+        <option id="novelOne-two">Page 2</option>
+        <option id="novelOne-three">Page 3</option>
+        <option id="novelOne-four">Page 4</option>
+        <option id="novelOne-five">Page 5</option>
+    </select>
+    <button class="greater">&rarr;</button>
+  </div>
+</body>
